@@ -8,3 +8,7 @@ A minimal snake game, but you control the snake with your voice.
 ### Issues
 * The control may be a bit gimmicky, as the model is not always accurate.
 * Needs Internet connection to work, so as to load the model and some important libraries.
+
+
+
+Still a Work-In-Progress, and needs time to be developed.

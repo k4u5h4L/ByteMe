@@ -7,8 +7,9 @@ let classifier;
 
 // Let Google Host your model for free
 let modelURL = 'https://teachablemachine.withgoogle.com/models/dqbtDkvtm/';
-// let modelURL = 'https://teachablemachine.withgoogle.com/models/Hqu4mfIB/';
 
+// uncomment the below for offline model, may not always work
+// let modelURL = 'voice-model/';
 // Load the model
 function preload() {
     classifier = ml5.soundClassifier(modelURL + 'model.json');

@@ -6,7 +6,7 @@ let instru = "waiting...";
 let classifier;
 
 // model url
-let modelURL = 'voice-model/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/dqbtDkvtm/';
 
 // Load the model
 function preload() {
